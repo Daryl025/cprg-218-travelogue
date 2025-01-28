@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    border: 0;
+}
+body{
+    height: 100%;
+    background-color:rgb(177, 224, 230)
+}
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    justify-content: space-between; /* Ensures the footer stays at the bottum */
+    padding:2%;
+    width: 15%;
+    height: 100vh;
+    
+}
+
+#layout{
+    display: flex;  /*goes right*/
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    padding-left:1%;
+    width: 85%;
+    overflow-x: hidden; /*prevent horizontal overflow*/
+}
+
+img{
+    max-width: 20rem;  /* Ensures images don't overflow */
+    
+    border-radius: 5%;
+}
+
+
+.Content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+Section{
+display: flex;
+flex-direction: row;
+gap: 1rem;
+}
+p{
+    
+  color: rgb(21, 22, 22);
+    line-height:2;
+    font-size: 1.2em;
+   
+}
+
+
+h1{
+    font-size: 3em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    color:rgb(251, 247, 247);
+    
+}
